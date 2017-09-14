@@ -40,7 +40,7 @@ public class LoginPage implements ActionListener{
         f=new JFrame("One Code");
         f.setSize(1020,440);
         
-        ImageIcon imgg=new ImageIcon("C:\\Users\\Bipin\\Downloads\\OneCode (1)\\OneCode\\Images\\onecode.jpg");
+        ImageIcon imgg=new ImageIcon("D:\\Project\\ONECode\\assets\\image\\onecode.jpg");
         f.setIconImage(imgg.getImage());
     
         intro=new JTextArea();        
@@ -59,7 +59,7 @@ public class LoginPage implements ActionListener{
         p1=new JPanel();
         p2=new JPanel();        
       
-        ImageIcon img = new ImageIcon(new ImageIcon("C:\\Users\\Bipin\\Downloads\\OneCode (1)\\OneCode\\Images\\oneCode.jpg").getImage().getScaledInstance(200, 200, Image.SCALE_DEFAULT));
+        ImageIcon img = new ImageIcon(new ImageIcon("D:\\Project\\ONECode\\assets\\image\\onecode.jpg").getImage().getScaledInstance(200, 200, Image.SCALE_DEFAULT));
         
         f.setLayout(null);
         
